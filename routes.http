@@ -1,0 +1,31 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "video node",
+    "description": "Esse é o video 1",
+    "duration": 180 
+
+}
+
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/f8f55266-746b-479f-b567-74dc063c86f0
+Content-Type: application/json
+
+
+{
+    "title": "video PYTHON",
+    "description": "Esse é tutorial em python flask/django",
+    "duration": 360
+
+}
+
+###
+
+DELETE http://localhost:3333/videos/c56cc8e0-6c14-4cb4-a8c1-8960052deed5
